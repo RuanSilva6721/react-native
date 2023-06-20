@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, Image} from 'react-native'
 import Header from '../../components/Header'
+import QuadradoComponent from '../../components/QuadradoComponent';
 
 export default function Home(){
   let nome = 'Campus XX - Castanhal';
-  let image = 'https://www.google.com/google.jpg'
+  let image = 'https://www.google.com/google.jpg';
+
 }
 
 const styles = StyleSheet.create({
@@ -14,5 +16,6 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
+
 
 

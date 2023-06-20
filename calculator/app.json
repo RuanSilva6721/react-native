@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "calculator of IMC",
+    "slug": "calculatorimc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ruanfelipe6721.calculator"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7e01cfc9-f9d5-4a55-8ffe-770c0c0850a5"
+      }
+    }
+  }
+}
